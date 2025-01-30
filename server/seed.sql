@@ -1,0 +1,3 @@
+CREATE TABLE messages
+    is INT PRIMARY KEY GENERATED ALWAYS AS IDENITY,
+    auther 
