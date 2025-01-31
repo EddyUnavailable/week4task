@@ -62,6 +62,6 @@ app.post('/jokes', async (req, res) => {
 })
 
 
-app.listen('4242', () => {
-    console.log(`App running on http://localhost:4242`)
+app.listen('5174', () => {
+    console.log(`App running on http://localhost:5174`)
 })
