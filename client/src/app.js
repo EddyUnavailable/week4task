@@ -1,18 +1,24 @@
-// create the form on html  page
-// get the form as a DOM node
+import "./style.css";
+import javascriptLogo from "./javascript.svg";
+import viteLoco from "/vite.svg";
+import {  setupCounter } from ".counter.js"
 
-// write a function that makes a fetch to GET messages
+import supabase from "./config/supabaseClient";
+console.log(supabase);
 
-// write a function that POSTS a new message when the form is submitted
-// and insert them to the database
-// MAYBE we also rerun function that GETs infor, so it appears
-
-/*export function setupCounter(element) {
-    let counter = 0
-    const setCounter = (count) => {
-      counter = count
-      element.innerHTML = `count is ${counter}`
-    }
-    element.addEventListener('click', () => setCounter(counter + 1))
-    setCounter(0)
-  }*/
+document.querySelector("#app").innerHTML =
+<div>
+  <a href="https://vitejs.dev" target="_blank">
+    <img src-"${viteLogo}" class="logo" alt="Vite logo" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+  </a>
+  <h1>Hello Vite!</h1>
+  <div class="card">
+    <button id="counter" type="button"></button>
+  </div>
+  <p class="read-the-docs">
+    Click on the Vite logo to learn more
+  </p>
+</div>
+;
